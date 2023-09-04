@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    
+    padding: 5px;
+    background-color: #045694fd;
+    
+    
+}
+
+
+.div-1{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+
+}
+.div-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    
+}
+
+#lista-1{
+    display: flex; /*   */
+    gap: 20px;
+    list-style-type: none;
+    
+    
+}
+
+
+#lista-2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#imgfifa{
+    width: 70px;
+}
+
+.icones{
+    margin-right: 12px;
+}
+
+/* MAIN */
+
+
+.secao-1{
+    display: flex;
+    height: 86vh;
+    font-weight: bolder;
+}
+
+.watch-fifa{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://digitalhub.fifa.com/transform/9a17f3df-55f7-4b6c-be8c-812401566dab/MicrosoftTeams-image-139");
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+    /* flex-wrap: wrap; */
+    
+}
+
+h1{
+    font-size: 20px;
+    
+}
+
+.watch-fifa button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%);
+}
+
+.watch-fifa button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+.copa {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    color: white;
+    background-image: url("https://digitalhub.fifa.com/transform/d76c597f-84a8-4f97-848e-d14777db4499/Argentina-v-France-Final-FIFA-World-Cup-Qatar-2022?io=transform:fill,height:868,width:1536&quality=75");  
+    background-size: cover;
+    background-position-y: center;
+    font-size: 15px;
+    
+}
+
+/* cards */ 
+
+#h1-cards{
+    padding: 40px 0 5px 40px;
+    font-size: medium;
+}
+
+.secao-2{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+
+.img-cards{
+    width: 380px;
+    border-radius: 12px;
+    border: none;
+    
+}
+
+#card-1{
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+#card-2{
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+#card-3{
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+/* CARDS 2 */
+
+#h1-cards2{
+    padding: 40px 0 2px 40px;
+}
+
+.img-card img:hover{
+    position: relative;
+    top:-2px;right: -2px;box-shadow:0 2px 2px #666;
+    cursor: pointer;
+}
+
+/* CARD 3 */
+
+.secao-3{
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 0 40px 0 40px;
+    height: 480px;
+}
+
+.container1{
+    /* border: 2px solid red; */
+    width: 75%;
+    
+
+}
+
+#img-trofeu{
+    height: 300px;
+    width:470px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* .container2{
+    width: 50%;
+} */
+
+#io{
+    padding: 15px 0 15px 0;
+    font-weight: bold;
+    
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    padding: 0 0 100px 0;
+    /* justify-content: space-around; */
+}
+
+.g1{
+    width: 320px;
+    border-radius: 12px;
+    border: none;
+}
+
+/* ultimo card :) */
+.section4{
+    background-color: #045694;
+}
+
+.ultimo{
+    padding: 20px 0 2px 40px;
+    font-size: medium ;
+    color: white;
+}
+
+.secao-4{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: white;
+    padding: 14px 2px 6px 0 ;
+    
+    
+}
+
+.m1{
+    width: 280px;
+    
+    border-radius: 20px;
+}
+
